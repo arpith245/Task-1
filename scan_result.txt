@@ -1,0 +1,27 @@
+nmap -sS 10.145.197.0/24 -oN scan_results.txt
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-09-22 21:46 IST
+Stats: 0:00:01 elapsed; 0 hosts completed (0 up), 255 undergoing ARP Ping Scan
+ARP Ping Scan Timing: About 13.73% done; ETC: 21:46 (0:00:06 remaining)
+Stats: 0:00:02 elapsed; 0 hosts completed (0 up), 255 undergoing ARP Ping Scan
+ARP Ping Scan Timing: About 35.49% done; ETC: 21:46 (0:00:04 remaining)
+Stats: 0:00:10 elapsed; 0 hosts completed (0 up), 255 undergoing ARP Ping Scan
+ARP Ping Scan Timing: About 75.29% done; ETC: 21:46 (0:00:03 remaining)
+Nmap scan report for 10.145.197.94
+Host is up (0.00028s latency).
+All 1000 scanned ports on 10.145.197.94 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: 04:CF:4B:27:6D:AC (Intel Corporate)
+
+Nmap scan report for 10.145.197.161
+Host is up (0.016s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE
+53/tcp open  domain
+MAC Address: A2:40:F3:F8:35:50 (Unknown)
+
+Nmap scan report for 10.145.197.182
+Host is up (0.000011s latency).
+All 1000 scanned ports on 10.145.197.182 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+Nmap done: 256 IP addresses (3 hosts up) scanned in 17.66 seconds
